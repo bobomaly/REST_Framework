@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23a646ce-d16c-4da4-b58c-54431ed6836b" name="Changes" comment="v 0.6 Authentication">
+    <list default="true" id="23a646ce-d16c-4da4-b58c-54431ed6836b" name="Changes" comment="v 0.6 Register New User (a token is not created for a new user)">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/permissions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyAPI/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyAPI/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAPI/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyAPI/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -126,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705158953454</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="v 0.6 Register New User (a token is not created for a new user)">
+      <option name="closed" value="true" />
+      <created>1705161200749</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705161200749</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -135,6 +151,7 @@
     <MESSAGE value="v 0.5 Mixins in Class Based View&#10;and Generic Class Based View." />
     <MESSAGE value="v 0.5 Mixins in Viewsets Routers. &amp;  Generic Viewsets. &amp; Model Viewset." />
     <MESSAGE value="v 0.6 Authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="v 0.6 Authentication" />
+    <MESSAGE value="v 0.6 Register New User (a token is not created for a new user)" />
+    <option name="LAST_COMMIT_MESSAGE" value="v 0.6 Register New User (a token is not created for a new user)" />
   </component>
 </project>
