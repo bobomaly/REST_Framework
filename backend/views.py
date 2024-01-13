@@ -20,7 +20,7 @@ from rest_framework.permissions import IsAuthenticated
 class ArticleViewSet(viewsets.ModelViewSet):
     lookup_field = 'slug'
     queryset = Article.objects.all()
-    serializer_class = ArticleSerializer
+    serializer_class = ArticleSerializerнет
     # authentication_classes = (TokenAuthentication, )
     permission_classes = [IsAuthenticated]
 
