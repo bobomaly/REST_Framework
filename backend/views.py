@@ -11,6 +11,8 @@ from rest_framework.views import APIView
 from rest_framework import mixins
 from rest_framework import generics
 from rest_framework import viewsets
+from rest_framework.authentication import TokenAuthentication
+from rest_framework.permissions import IsAuthenticated
 
 
 # Create your views here.
@@ -19,6 +21,11 @@ class ArticleViewSet(viewsets.ModelViewSet):
     lookup_field = 'slug'
     queryset = Article.objects.all()
     serializer_class = ArticleSerializer
+    # authentication_classes = (TokenAuthentication, )
+    permission_classes = [IsAuthenticated]
+
+    def perform_create(self, serializer):
+        serializer.save(author=self.request.user)
 
 
 '''
